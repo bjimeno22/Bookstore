@@ -1,0 +1,4 @@
+Microsoft.VisualStudio.SolutionMetadata.SolutionDirectoryFormat|17
+# Visual Studio 2022
+VisualStudioVersion = 17.0.31929.234
+MinimumVisualStudioVersion = 10.0.40219.1
