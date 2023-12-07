@@ -2,7 +2,7 @@ using System.Security.Cryptography;
 using System.Security.Policy;
 using System.Text;
 
-namespace PizzaStore.Helpers
+namespace Bookstore.Helpers
 {
     public class PasswordManager
     {
