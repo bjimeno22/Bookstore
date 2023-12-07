@@ -1,5 +1,6 @@
 namespace Bookstore
 {
+    [Authorize(Policy = "Authenticated")]
     [ApiController]
     [Route("api/authors")]
     public class AuthorsController : ControllerBase

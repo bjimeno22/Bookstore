@@ -87,8 +87,7 @@ var app = builder.Build();
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin Only", policy => policy.RequireClaim("rol", "Admin"));
-    options.AddPolicy("Manager", policy => policy.RequireClaim("rol", "Admin", "Manager") );
-    options.AddPolicy("Authenticated", policy => policy.RequireClaim("rol", " User", "Manager", "Admin"));
+    options.AddPolicy("Authenticated", policy => policy.RequireClaim("rol", " User", "Admin"));
 });
 
 
